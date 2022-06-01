@@ -27,6 +27,8 @@ Each of the following environment is represented by its own branch in this repos
   - Represents containerization tool
 - [AWS](https://aws.amazon.com/)
   - Represents platform where all environments will be hosted
+- [Terraform](https://www.terraform.io)
+  - Represents tool to define infrastructure
 
 ### Automation Processes & Application Lifecycle
 
@@ -50,12 +52,12 @@ Each of the following environment is represented by its own branch in this repos
     - Install dependencies
     - Run client tests
     - Build application
-    - Deploy to `staging` environment
+    - Deploy to `prod` environment
 
-All workflows that do not appear in the previous section are not allowed.
+All triggers that do not appear in the previous section are not allowed.
 
 ## Links
 
-- [Repository of deployable app](https://github.com/lucendio/lecture-devops-app)
+- [Repository of Deployable App](https://github.com/lucendio/lecture-devops-app)
 - [Project Conecpt Requirements](https://github.com/lucendio/lecture-devops-infos/blob/main/assignments/deliverables/project_concept.md)
 - [Project Grading](https://github.com/lucendio/lecture-devops-infos/blob/main/grading.md)
