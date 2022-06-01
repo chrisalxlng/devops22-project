@@ -42,22 +42,25 @@ The described target environments and branching strategy influenced by [this art
   - `push` -> `master`, `pull_request` (feature branch) -> `master`:
     - Setup of application
     - Install dependencies
-    - Run client tests
     - Build application
+    - Run client tests
+    - Run server tests
     - Deploy to `dev` environment
 - Staging workflows
   - `pull_request` (`master`) -> `staging`:
     - Setup of application
     - Install dependencies
-    - Run client tests
     - Build application
+    - Run client tests
+    - Run server tests
     - Deploy to `staging` environment
 - Production workflows
   - `pull_request` (`staging`) -> `prod`:
     - Setup of application
     - Install dependencies
-    - Run client tests
     - Build application
+    - Run client tests
+    - Run server tests
     - Deploy to `prod` environment
 
 All triggers that do not appear in the previous section are not allowed.
