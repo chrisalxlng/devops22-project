@@ -18,17 +18,23 @@ Each of the following environment is represented by its own branch in this repos
 - Development (`dev`)
   - The `dev` environment is is used during development and can therefore be unstable at times
 
+The described target environments and branching strategy influenced by [this article](https://dev.to/preethamsathyamurthy/git-branching-and-branching-strategy-4mci) was chosen because of positive personal experience and their popularity in general.
+
 ### Tech Stack
 
 - [GitHub Actions](https://github.com/features/actions)
   - Integrated CI/CD solution by GitHub
   - Represents platform of CI/CD Pipeline
+  - Chosen because of personal preference of GitHub
 - [Docker](https://www.docker.com)
   - Represents containerization tool
+  - Chosen because its status of being one of the most commonly used containerization tools and therefore being a good skill to have
 - [AWS](https://aws.amazon.com/)
   - Represents platform where all environments will be hosted
+  - Chosen because of its status as one of the most popular hosting solutions and because it is one of two tools with access to credentials
 - [Terraform](https://www.terraform.io)
   - Represents tool to define infrastructure
+  - Chosen because of its status as one of the most popular infrastructure tools
 
 ### Automation Processes & Application Lifecycle
 
